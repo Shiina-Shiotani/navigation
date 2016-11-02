@@ -317,7 +317,7 @@ void pf_update_sensor(pf_t *pf, pf_sensor_model_fn_t sensor_fn, void *sensor_dat
       int reset_limit = 0, reset_count = 0;
       int reset_init = 1;
 
-      printf("kidnapped\n");
+//      printf("kidnapped\n");
       
       pf_kdtree_clear(set->kdtree);
       
@@ -373,10 +373,10 @@ void pf_update_sensor(pf_t *pf, pf_sensor_model_fn_t sensor_fn, void *sensor_dat
       }
       reset_count++;
     }
-    else
-    {
-      printf("not kidnapped\n");
-    }
+//    else
+//    {
+//      printf("not kidnapped\n");
+//    }
 /*------------------------------------------------------------------------------------*/
 
 
